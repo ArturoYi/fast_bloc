@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-dvh bg-(--c-bg) text-(--c-text) antialiased">
+  <div class="min-h-dvh bg-c-bg text-c-text antialiased">
     <AppHeader />
     <main
       id="main"

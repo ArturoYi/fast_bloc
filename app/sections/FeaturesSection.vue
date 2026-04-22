@@ -9,11 +9,11 @@ defineProps<{
 <template>
   <section
     :id="id"
-    class="bg-(--c-bg)"
+    class="bg-c-bg"
   >
     <Container class="py-14 sm:py-18">
       <div class="mx-auto max-w-2xl text-center">
-        <h2 class="text-balance text-2xl font-semibold tracking-tight text-(--c-text) sm:text-3xl">
+        <h2 class="text-balance text-2xl font-semibold tracking-tight text-c-text sm:text-3xl">
           {{ title }}
         </h2>
       </div>
@@ -22,12 +22,12 @@ defineProps<{
         <div
           v-for="(it, idx) in items"
           :key="idx"
-          class="rounded-2xl border border-(--c-border) bg-(--c-surface) p-5 shadow-sm"
+          class="rounded-2xl border border-c-border bg-c-surface p-5 shadow-sm"
         >
-          <h3 class="text-sm font-semibold text-(--c-text)">
+          <h3 class="text-sm font-semibold text-c-text">
             {{ it.title }}
           </h3>
-          <p class="mt-2 text-sm leading-6 text-(--c-text-muted)">
+          <p class="mt-2 text-sm leading-6 text-c-text-muted">
             {{ it.description }}
           </p>
         </div>
