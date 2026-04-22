@@ -1,6 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+/* 映射 :root 中的 --c-*，使 bg-c-bg、text-c-text 等可当作主题色使用，避免在模板里写任意类名 */
+@theme inline {
+  --color-c-bg: var(--c-bg);
+  --color-c-surface: var(--c-surface);
+  --color-c-surface-muted: var(--c-surface-muted);
+  --color-c-text: var(--c-text);
+  --color-c-text-muted: var(--c-text-muted);
+  --color-c-text-subtle: var(--c-text-subtle);
+  --color-c-border: var(--c-border);
+  --color-c-accent: var(--c-accent);
+  --color-c-accent-contrast: var(--c-accent-contrast);
+}
 
 @layer base {
   :root {

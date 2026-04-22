@@ -10,7 +10,7 @@ function cycle() {
   <ClientOnly>
     <button
       type="button"
-      class="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-[color:var(--c-border)] bg-[color:var(--c-surface)] text-[color:var(--c-text)] hover:bg-[color:var(--c-surface-muted)]"
+      class="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-(--c-border) bg-(--c-surface) text-(--c-text) hover:bg-(--c-surface-muted)"
       :aria-label="colorMode.preference === 'dark' ? '切换到浅色模式' : '切换到深色模式'"
       @click="cycle"
     >

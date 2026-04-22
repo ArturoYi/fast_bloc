@@ -1,6 +1,9 @@
+import tailwindcss from '@tailwindcss/vite'
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
+// Tailwind v4：用 @tailwindcss/vite，避免 @nuxtjs/tailwindcss 在 pnpm 下误判 v3 并错误注册 PostCSS
 export default defineNuxtConfig({
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/color-mode'],
+  modules: ['@nuxtjs/color-mode'],
 
   devtools: { enabled: true },
 
@@ -22,4 +25,8 @@ export default defineNuxtConfig({
     fallback: 'light',
   },
   compatibilityDate: '2025-07-15',
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
 })

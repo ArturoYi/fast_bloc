@@ -9,14 +9,14 @@ defineProps<{
 <template>
   <section
     :id="id"
-    class="border-y border-[color:var(--c-border)] bg-[color:var(--c-surface-muted)]"
+    class="border-y border-(--c-border) bg-(--c-surface-muted)"
   >
     <Container class="py-14 sm:py-18">
       <div class="flex items-end justify-between gap-6">
-        <h2 class="text-xl font-semibold tracking-tight text-[color:var(--c-text)] sm:text-2xl">
+        <h2 class="text-xl font-semibold tracking-tight text-(--c-text) sm:text-2xl">
           {{ title }}
         </h2>
-        <p class="text-sm text-[color:var(--c-text-muted)]">
+        <p class="text-sm text-(--c-text-muted)">
           图片/Logo 后续可由 bloc 后端下发
         </p>
       </div>
@@ -25,7 +25,7 @@ defineProps<{
         <div
           v-for="(l, idx) in logos"
           :key="idx"
-          class="flex h-20 items-center justify-center rounded-2xl border border-[color:var(--c-border)] bg-[color:var(--c-surface)] px-4"
+          class="flex h-20 items-center justify-center rounded-2xl border border-(--c-border) bg-(--c-surface) px-4"
         >
           <img
             v-if="l.src"
@@ -36,7 +36,7 @@ defineProps<{
           >
           <span
             v-else
-            class="text-sm font-medium text-[color:var(--c-text-muted)]"
+            class="text-sm font-medium text-(--c-text-muted)"
           >{{ l.name }}</span>
         </div>
       </div>
