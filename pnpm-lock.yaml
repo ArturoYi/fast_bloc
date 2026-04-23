@@ -37,7 +37,7 @@ importers:
         specifier: ^4.2.2
         version: 4.2.4
       '@tailwindcss/vite':
-        specifier: ^4.2.2
+        specifier: ^4.2.4
         version: 4.2.4(vite@7.3.2(@types/node@25.6.0)(jiti@2.6.1)(lightningcss@1.32.0)(terser@5.46.1)(yaml@2.8.3))
       commitizen:
         specifier: ^4.3.1
@@ -55,7 +55,7 @@ importers:
         specifier: ^16.1.6
         version: 16.4.0
       tailwindcss:
-        specifier: ^4.2.2
+        specifier: ^4.2.4
         version: 4.2.4
 
 packages:
@@ -213,8 +213,8 @@ packages:
     resolution: {integrity: sha512-SIOD2DxrRRwQ+jgzlXCqoEFiKOFqaPjhnNTGKXSRLvp1HiOvapLaFG2kEr9dYQTYe8rKrd9uvDUzmAITeNyaHQ==}
     engines: {node: '>=18.0.0'}
 
-  '@colordx/core@5.3.0':
-    resolution: {integrity: sha512-Bfo98934/UsfONkN4v+wBt1Z79OkUMImykDvIDPxslSpV/09tmN1InzqPtP5fNFvwsmLsH6/eIWpuUw9ClzRdw==}
+  '@colordx/core@5.4.0':
+    resolution: {integrity: sha512-zEvOjz+QQJX9l+HS5UO4tXoHSG+WSxPKHJg293k3j3myUWJtZ9P0pJT42WHLNxueyiVQX6BQtCs59i3MgpTMeg==}
 
   '@commitlint/cli@19.8.1':
     resolution: {integrity: sha512-LXUdNIkspyxrlV6VDHWBmCZRtkEVRpBKxi2Gtw3J54cGWhLCTouVD/Q6ZSaSvd2YaDObWK8mDjrz3TIKtaQMAA==}
@@ -2854,8 +2854,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.343:
-    resolution: {integrity: sha512-YHnQ3MXI08icvL9ZKnEBy05F2EQ8ob01UaMOuMbM8l+4UcAq6MPPbBTJBbsBUg3H8JeZNt+O4fjsoWth3p6IFg==}
+  electron-to-chromium@1.5.344:
+    resolution: {integrity: sha512-4MxfbmNDm+KPh066EZy+eUnkcDPcZ35wNmOWzFuh/ijvHsve6kbLTLURy88uCNK5FbpN+yk2nQY6BYh1GEt+wg==}
 
   embla-carousel-auto-height@8.6.0:
     resolution: {integrity: sha512-/HrJQOEM6aol/oF33gd2QlINcXy3e19fJWvHDuHWp2bpyTa+2dm9tVVJak30m2Qy6QyQ6Fc8DkImtv7pxWOJUQ==}
@@ -5687,7 +5687,7 @@ snapshots:
 
   '@cloudflare/kv-asset-handler@0.4.2': {}
 
-  '@colordx/core@5.3.0': {}
+  '@colordx/core@5.4.0': {}
 
   '@commitlint/cli@19.8.1(@types/node@25.6.0)(typescript@6.0.3)':
     dependencies:
@@ -8040,7 +8040,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.10.21
       caniuse-lite: 1.0.30001790
-      electron-to-chromium: 1.5.343
+      electron-to-chromium: 1.5.344
       node-releases: 2.0.38
       update-browserslist-db: 1.2.3(browserslist@4.28.2)
 
@@ -8484,7 +8484,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.343: {}
+  electron-to-chromium@1.5.344: {}
 
   embla-carousel-auto-height@8.6.0(embla-carousel@8.6.0):
     dependencies:
@@ -10206,7 +10206,7 @@ snapshots:
 
   postcss-colormin@7.0.9(postcss@8.5.10):
     dependencies:
-      '@colordx/core': 5.3.0
+      '@colordx/core': 5.4.0
       browserslist: 4.28.2
       caniuse-api: 3.0.0
       postcss: 8.5.10
@@ -10256,7 +10256,7 @@ snapshots:
 
   postcss-minify-gradients@7.0.4(postcss@8.5.10):
     dependencies:
-      '@colordx/core': 5.3.0
+      '@colordx/core': 5.4.0
       cssnano-utils: 5.0.2(postcss@8.5.10)
       postcss: 8.5.10
       postcss-value-parser: 4.2.0
